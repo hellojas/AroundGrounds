@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">Around Grounds</string>
+    <string name="splash">WELCOME!</string>
+
+    <string-array name="menu_array">
+        <item>Start The Tour!</item>
+        <item>Enter Your Own Coordinates</item>
+        <item>Location History</item>
+        <item>About Us</item>
+        <item >Are you Hungry???</item>
+    </string-array>
+
+    <string name="maps_api_key">0QhJ_uz9Zd-bXkGleZZFxIuPjynvSwnVxXpPA7g</string>
+
+    <string-array name="loc_menu_array">
+        <item>1. Old Dorms</item>
+        <item>2. Newcomb</item>
+        <item>3. Clemons</item>
+        <item>4. Chapel</item>
+        <item>5. Rotunda</item>
+    </string-array>
+
+</resources>

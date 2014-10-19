@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/locImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/locName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/locImage"
+            android:layout_alignLeft="@+id/locImage"
+            android:layout_alignRight="@+id/locImage"
+            android:layout_alignTop="@+id/locImage"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:text="Welcome to Old Dorms!"
+            android:textSize="25dp"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/olddorms" />
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+            android:text="The McCormick Road Dormitories (generally referred to as Old Dorms) are first-year living dormitories at the University of Virginia. Ten houses make up the residence area located on McCormick Road. The dormitory area was constructed in 1950 and can hold nearly 1300 students. It is the closest living area to Central Grounds for first-year students."
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

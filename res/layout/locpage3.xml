@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/locImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/locName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/locImage"
+            android:layout_alignLeft="@+id/locImage"
+            android:layout_alignRight="@+id/locImage"
+            android:layout_alignTop="@+id/locImage"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:text="Welcome to Clemons!"
+            android:textSize="25dp"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/clemons" />
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+            android:text="Clemons Library maintains the longest hours of any library on Grounds, making it the ideal place to study. Clemons has several lounge areas and dozens of tables and carrels with seating for 1300 patrons on the 1st, 2nd and 4th floors. The 1st floor is a designated Quiet Study Area."
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Type Longitude:" />
+
+    <EditText
+        android:id="@+id/entryLongitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/label"
+        android:background="@android:drawable/editbox_background" >
+
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/entryLatitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/entryLongitude"
+        android:layout_marginTop="50dp"
+        android:background="@android:drawable/editbox_background" />
+
+    
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/entryLatitude"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="40dp"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/entryLongitude"
+        android:layout_marginTop="27dp"
+        android:text="Type Latitude:" />
+    
+    <RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/ok"
+      android:orientation="vertical">
+      <RadioButton android:id="@+id/radio_rotunda"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Target Location: Rotunda"
+          android:onClick="onRotundaClicked"/>
+      <RadioButton android:id="@+id/radio_chapel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Target Location: Chapel"
+          android:onClick="onChapelClicked"/>
+      <RadioButton android:id="@+id/radio_clemons"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Target Location: Clemons"
+          android:onClick="onClemonsClicked"/>
+      <RadioButton android:id="@+id/radio_newcomb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Target Location: Newcomb Hall"
+          android:onClick="onNewcombClicked"/>
+      <RadioButton android:id="@+id/radio_olddorms"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Target Location: Old Dorms"
+          android:onClick="onOldDormsClicked"/>
+    </RadioGroup>
+    
+</RelativeLayout>
